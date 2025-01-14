@@ -5,7 +5,7 @@ Generate a cryptographically-random probable prime number that passes the Miller
 ## Install
 
 ```sh
-npm install --save crypto-random-prime
+npm install crypto-random-prime
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install --save crypto-random-prime
 ```ts
 import random from 'crypto-random-prime';
 
-// Generate a 300-bits random prime, performing 64 rounds of Miller-Rabin tests
+// Let's generate a 300-bits random prime, performing 64 rounds of Miller-Rabin tests
 
 random ( 300, 64 ); // => 1229897812185405005544550995303702949862219513844036076668441860571526838822977324092558451n
 ```
