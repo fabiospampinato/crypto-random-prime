@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/crypto-random-prime",
   "description": "Generate a cryptographically-random probable prime number that passes the Miller-Rabin test with the given number of bits of entropy.",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
